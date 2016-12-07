@@ -27,6 +27,7 @@ hr {
     background-color: #9B9B9B;
     border: 0 none;
     height: 1px;
+		margin: 40px auto 50px auto
 }
 .share-icons a {
     display: inline-block;
@@ -114,14 +115,6 @@ hr {
 .article {
 	font-size: 1.2rem;
 	line-height: 1.6;
-}
-.article h2 {
-    margin-top: 50px;
-}
-.article p,
-.article ul,
-.article ol {
-    margin-bottom: 40px;
 }
 .article-footer {
     background-color: #cdcdcd;
