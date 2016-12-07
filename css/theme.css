@@ -24,8 +24,7 @@ a:hover {
 }
 hr {
     width: 40%;
-    background-color: #444;
-    color: #444;
+    background-color: #9B9B9B;
     border: 0 none;
     height: 1px;
 }
@@ -115,6 +114,14 @@ hr {
 .article {
 	font-size: 1.2rem;
 	line-height: 1.6;
+}
+.article h2 {
+    margin-top: 50px;
+}
+.article p,
+.article ul,
+.article ol {
+    margin-bottom: 40px;
 }
 .article-footer {
     background-color: #cdcdcd;
