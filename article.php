@@ -11,7 +11,7 @@
 					<h1>
 						<?php $plxShow->artTitle(); ?>
 					</h1>
-					<?php eval($plxShow->callHook("showVignette")); ?>
+					<?php $plxShow->artThumbnail(); ?>
 				</header>
 			</section>
 
