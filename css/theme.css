@@ -103,11 +103,11 @@ hr {
     margin: 0px;
     color: #CDCFD2;
 }
-.article-header .vignette {
+.article-header .art_thumbnail {
 	width: 100%;
 	margin: 0px;
 }
-.article-header .vignette img {
+.article-header .art_thumbnail img {
 	border: 0px none;
 	height: auto;
 	width: 100%;
