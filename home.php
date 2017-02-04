@@ -3,30 +3,6 @@
 	<main class="grid" role="main">
 
 		<?php include(dirname(__FILE__).'/sidebar.php'); ?>
-		
-		
-		<?php 
-			$catEdito = '007';
-			if($plxShow->plxMotor->aCats[$catEdito]['active']) {
-				$plxShow->lastArtList('
-					<section class="col sml-12 med-9 med-right">
-						<section class="main col edito">
-							<article role="article">
-								<header>
-									<h1 class="h2"><a href="#art_url" title="#art_title">#art_title</a></h1>
-								</header>
-								<p>
-									<small>
-										<strong>Rédigé par #art_author</strong>
-									</small>
-								</p>
-								<section>#art_content(9999)</section>
-							</article>
-						</section>
-					</section>'
-				, 1, $catEdito); 
-			}
-		?>
 
 		<section class="col sml-12 med-9 med-right">
 			
