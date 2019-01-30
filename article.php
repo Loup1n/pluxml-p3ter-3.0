@@ -11,7 +11,7 @@
 					<h1>
 						<?php $plxShow->artTitle(); ?>
 					</h1>
-					<?php $plxShow->artThumbnail(); ?>
+					<?php $plxShow->artThumbnail('<img class="art_thumbnail" src="#img_thumb_url" alt="#img_alt" title="#img_title" />'); ?>
 				</header>
 			</section>
 
