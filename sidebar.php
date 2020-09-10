@@ -20,7 +20,6 @@
         
         <nav class="share-icons">
             <a class="twitter" onclick="window.open(this.href);return false;" title="Twitter" href="https://twitter.com/P3terFr" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/twitter/twitter-32.png" alt="Twitter" /></a>
-            <a class="googleplus" onclick="window.open(this.href);return false;" title="Google +" href="https://plus.google.com/+PedroCADETE" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/googleplus/googleplus-32.png" alt="Google Plus" /></a>
             <a class="github" onclick="window.open(this.href);return false;" title="Github" href="https://github.com/P3ter" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/github/github-32.png" alt="Github" /></a>
             <a class="flux" title="Flux RSS" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/rss/rss-32.png" alt="Flux RSS" /></a>
         </nav>
@@ -59,6 +58,14 @@
 
 		<ul class="lastcom-list unstyled-list">
 			<?php $plxShow->lastComList('<li><a href="#com_url">#com_author '.$plxShow->getLang('SAID').' : #com_content(34)</a></li>'); ?>
+		</ul>
+
+		<h3>
+			<?php $plxShow->lang('ARCHIVES'); ?>
+		</h3>
+
+		<ul class="arch-list unstyled-list">
+			<?php $plxShow->archList('<li id="#archives_id"><a class="#archives_status" href="#archives_url" title="#archives_name">#archives_name</a> (#archives_nbart)</li>'); ?>
 		</ul>
 
 		<h3>

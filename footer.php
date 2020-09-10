@@ -11,7 +11,6 @@
 				</p>
 				<nav class="share-icons">
 					<a class="twitter" onclick="window.open(this.href);return false;" title="Twitter" href="https://twitter.com/P3terFr" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/twitter/twitter-32.png" alt="Twitter" /></a>
-					<a class="googleplus" onclick="window.open(this.href);return false;" title="Google +" href="https://plus.google.com/+PedroCADETE" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/googleplus/googleplus-32.png" alt="Google Plus" /></a>
 					<a class="github" onclick="window.open(this.href);return false;" title="Github" href="https://github.com/P3ter" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/github/github-32.png" alt="Github" /></a>
 					<a class="flux" onclick="window.open(this.href);return false;" title="Flux RSS" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" rel="nofollow"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/rss/rss-32.png" alt="Flux RSS" /></a>
         		</nav>

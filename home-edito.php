@@ -54,7 +54,6 @@
 						<div class="share-icons col sml-12 med-3 text-right">
 							<a class="twitter" onclick="window.open(this.href);return false;" title="Twitter" href="https://twitter.com/share?url=<?php $plxShow->artUrl(); ?>&text=<?php $plxShow->artTitle(); ?>&via=P3terFr" rel="nofollow" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/twitter/twitter-32.png" alt="Twitter" /></a>
 							<a class="facebook" onclick="window.open(this.href);return false;" title="Facebook" href="https://www.facebook.com/sharer.php?u=<?php $plxShow->artUrl(); ?>&t=<?php $plxShow->artTitle(); ?>" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/facebook/facebook-32.png" alt="Facebook" /></a>
-							<a class="googleplus" onclick="window.open(this.href);return false;" title="Google +" href="https://plus.google.com/share?url=<?php $plxShow->artUrl(); ?>&hl=fr" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img src="<?php $plxShow->template(); ?>/img/simple-icons-master/icons/googleplus/googleplus-32.png" alt="Google Plus" /></a>
 						</div>
 					</header>
 					<section>
