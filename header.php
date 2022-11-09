@@ -17,6 +17,7 @@
 	<?php $plxShow->pluginsCss() ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>" href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires') ?>" />
+	<link rel="me" href="https://mamot.fr/@P3ter"/>
 </head>
 
 <body id="top">
